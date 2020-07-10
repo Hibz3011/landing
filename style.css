@@ -1,0 +1,53 @@
+/* Write some CSS below */
+body{
+	background-color: #ffdcb4;
+	color: #00005c;
+	font-family: 'Pangolin', cursive;
+	margin: 0;
+	text-align: center;
+}
+a{
+	color: white;
+	text-decoration: none;
+	background-color: #00005c;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+a:hover{
+	color: #c060a1;
+}
+
+#banner{
+	background-image: url('images/background.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	padding: 80px; 
+	color: #c060a1;
+}
+
+.card-white{
+	background-color: white;
+	width: 400px;
+}
+img{
+	width:400px;
+}
+#footer{
+	color: #ffdcb4;
+	background-color: #00005c;
+	padding: 20px;
+
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+
+}
+
+}
